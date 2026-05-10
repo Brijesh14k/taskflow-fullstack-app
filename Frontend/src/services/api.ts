@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-    baseURL: 'https://taskflow-fullstack-app-xcok.onrender.com',
+    baseURL: 'https://taskflow-fullstack-app-xcok.onrender.com/api',
 })
 
 API.interceptors.request.use((config) => {
